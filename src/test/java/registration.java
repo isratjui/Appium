@@ -59,20 +59,7 @@ public class registration {
 
     @Test
     public void basicTest () throws InterruptedException {
-        //Click and pass Splash
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/animation_view"))).click();
-
-        //Click and pass Tutorial
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/btn_skip"))).click();
-
-        //Click to "Is Ariyorum" Button
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/bluecollar_type_button"))).click();
-
-
-//        //Notification Allow
+       
         if (driver.findElements(By.id("com.android.packageinstaller:id/permission_allow_button")).size() > 0) {
             driver.findElements(By.id("com.android.packageinstaller:id/permission_allow_button")).get(0).click();
         }
