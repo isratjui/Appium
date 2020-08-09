@@ -59,17 +59,7 @@ public class loginlogout {
 
     @Test
     public void basicTest () throws InterruptedException {
-        //Click and pass Splash
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/animation_view"))).click();
-
-        //Click and pass Tutorial
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/btn_skip"))).click();
-
-        //Click to "Is Ariyorum" Button
-//        wait.until(ExpectedConditions.visibilityOfElementLocated
-//                (By.id("com.isinolsun.app:id/bluecollar_type_button"))).click();
+     
 
 
 //        //Notification Allow
