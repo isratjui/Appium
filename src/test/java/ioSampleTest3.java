@@ -145,11 +145,9 @@ public class ioSampleTest3 {
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView")));
         System.out.println("select vehicle");
         TimeUnit.SECONDS.sleep(3);
-        // driver.findElements(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView")).get(0).click();
-        System.out.println("submit");
-        // driver.findElements(By.id("com.Obhai.driver:id/submit")).get(0).click();
-        // new TouchAction(driver).tap(point(500, 1677)).perform();//pixel 2
-      //  new TouchAction(driver).tap(point(42, 303)).perform();
+
+        //System.out.println("submit");
+       
         TimeUnit.SECONDS.sleep(1);
         new TouchAction(driver).tap(point(333, 1185)).perform();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.Obhai.driver:id/btnOk")));
@@ -195,11 +193,7 @@ public class ioSampleTest3 {
         Thread.sleep(2000);
 
 
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.Button[1]")));
-
-        //driver.findElements(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.TextView")).get(0).click();
-
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Button[2]")));
+    
 
 
     }
